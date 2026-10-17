@@ -6,6 +6,7 @@ import numpy as np
 import tensorflow as tf
 from flask import Blueprint, jsonify, request
 from deep_translator import GoogleTranslator
+os.environ["TF_USE_LEGACY_KERAS"] = "1"
 
 translation_bp = Blueprint('translation', __name__)
 

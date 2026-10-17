@@ -8,3 +8,6 @@ werkzeug
 numpy
 opencv-python
 pillow
+gunicorn
+gevent
+gevent-websocket
